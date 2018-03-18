@@ -1,9 +1,24 @@
+@import url('https://fonts.googleapis.com/css?family=Oswald');
+
+html, body, #app, #app > div {
+    height: 100%
+}
+
+* {
+    font-family: 'Oswald', sans-serif;
+}
+
 body {
-    background: #000000;
+    background: #232323;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-weight: normal;
 }
 
 .container {
     display: flex;
     flex-direction: column;
     justify-content: center;
+    align-content: center;
 }

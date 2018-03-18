@@ -25,10 +25,18 @@ module.exports = {
             ],
         },
         {
+            test: /\.css$/,
+            include: /node_modules/,
+            use: [
+            'style-loader',
+            'css-loader'
+            ],
+        },
+        {
             test: /\.(png|jpg|gif)$/,
             use: [
               {
-                loader: 'url-loader',
+                loader: 'file-loader',
                 options: {
                   limit: 8192
                 }
