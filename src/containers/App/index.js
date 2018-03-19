@@ -13,7 +13,7 @@ import Quote from '../../components/Quote/';
 const URL = 'https://andruxnet-random-famous-quotes.p.mashape.com/?cat=famous&count=1';
 const headers = {
     headers : {
-        'X-Mashape-Key': 'dW4vVAI1xfmshfdwceE8IiiVpBdHp1uBGtYjsnm1besVXlNGDr', 
+        'X-Mashape-Key': 'XXXXXXXXXXXXXX', // Key removed
         'Content-Type': 'application/json',
         'Accept': 'application/json'
     }
